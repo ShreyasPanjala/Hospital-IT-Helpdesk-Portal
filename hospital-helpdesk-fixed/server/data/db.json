@@ -1,0 +1,102 @@
+{
+  "users": [
+    {
+      "id": "USR-1781492460798-6nytv",
+      "name": "rohan",
+      "email": "rohan@gmail.com",
+      "department": "medical",
+      "role": "staff",
+      "password": "$2a$10$Me8JnoQPCtFt0ydv0zoaSO8dLdeGIgOfiB5tFTaPWhoTJGynS4Y2y",
+      "createdAt": "2026-06-15T03:01:00.918Z"
+    },
+    {
+      "id": "USR-1781792701430-ps6vl",
+      "name": "Test Tech",
+      "email": "tech@test.com",
+      "department": "IT Support",
+      "role": "technician",
+      "password": "$2a$10$KjngxbCQVrxihtL8oOlI3uVusyx5wUZxQH4Q/DaiI7I55DLKNdjSW",
+      "createdAt": "2026-06-18T14:25:01.554Z"
+    }
+  ],
+  "tickets": [
+    {
+      "id": "TKT-1781792756939-c35z4",
+      "title": "Server Rack Overheating",
+      "category": "Computer Hardware",
+      "priority": "Critical",
+      "description": "The cooling system failed and ambient temp is 45 degrees Celsius. Need immediate inspection.",
+      "system": "Server Room A",
+      "status": "In Progress",
+      "assignedTo": "Test Tech",
+      "resolutionNote": "",
+      "createdBy": "USR-1781792701430-ps6vl",
+      "createdByName": "Test Tech",
+      "createdAt": "2026-06-18T14:25:56.939Z",
+      "updatedAt": "2026-06-18T14:26:22.470Z",
+      "slaDueAt": "2026-06-18T18:25:56.939Z",
+      "history": [
+        {
+          "at": "2026-06-18T14:25:56.939Z",
+          "by": "Test Tech",
+          "action": "Ticket Created",
+          "note": "Computer Hardware issue raised with Critical priority."
+        },
+        {
+          "at": "2026-06-18T14:26:22.470Z",
+          "by": "Test Tech",
+          "action": "Status changed to In Progress, Assigned to Test Tech",
+          "note": "Restarting backup fans and monitoring"
+        }
+      ]
+    },
+    {
+      "id": "TKT-1781495497943-hahju",
+      "title": "opd malfunction",
+      "category": "Computer Hardware",
+      "priority": "Medium",
+      "description": "very urgent problem",
+      "system": "printer",
+      "status": "Open",
+      "assignedTo": "",
+      "resolutionNote": "",
+      "createdBy": "USR-1781492460798-6nytv",
+      "createdByName": "rohan",
+      "createdAt": "2026-06-15T03:51:37.943Z",
+      "updatedAt": "2026-06-15T03:51:37.943Z",
+      "slaDueAt": "2026-06-16T03:51:37.943Z",
+      "history": [
+        {
+          "at": "2026-06-15T03:51:37.943Z",
+          "by": "rohan",
+          "action": "Ticket Created",
+          "note": "Computer Hardware issue raised with Medium priority."
+        }
+      ]
+    },
+    {
+      "id": "TKT-1781492481817-19wp6",
+      "title": "malfucntion",
+      "category": "Network Connectivity",
+      "priority": "Critical",
+      "description": "h",
+      "system": "opd",
+      "status": "Open",
+      "assignedTo": "",
+      "resolutionNote": "",
+      "createdBy": "USR-1781492460798-6nytv",
+      "createdByName": "rohan",
+      "createdAt": "2026-06-15T03:01:21.817Z",
+      "updatedAt": "2026-06-15T03:01:21.817Z",
+      "slaDueAt": "2026-06-15T07:01:21.817Z",
+      "history": [
+        {
+          "at": "2026-06-15T03:01:21.817Z",
+          "by": "rohan",
+          "action": "Ticket Created",
+          "note": "Network Connectivity issue raised with Critical priority."
+        }
+      ]
+    }
+  ]
+}
