@@ -1,14 +1,10 @@
 const express = require('express');
 const cors = require('cors');
-const connectDb = require('./db');
 require('dotenv').config();
 
 const app = express();
 app.use(cors({ origin: process.env.CLIENT_URL || 'http://localhost:3000' }));
 app.use(express.json());
-
-// Connect to MongoDB
-connectDb();
 
 app.get('/', (req, res) => res.json({ message: 'Hospital IT Helpdesk API Running' }));
 app.use('/api/auth', require('./routes/authRoutes'));
