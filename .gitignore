@@ -35,3 +35,6 @@ Thumbs.db
 
 # Personal files
 fedf infosys certificate.pdf
+
+# Local Netlify folder
+.netlify
